@@ -1,0 +1,155 @@
+/* Page layout with padding suggested from chatgpt*/
+
+
+.main-container {
+    padding-left: 223px;
+    padding-right: 223px;
+}
+
+
+/* typography */
+#logo{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21.3 px;
+}
+.nav-links{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2 px;
+}
+.container-for-introduction{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30 px;
+    line-height: 37px;
+    
+}
+.card-typo{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+}
+
+
+.card-typo,.contact h1 {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    
+}
+
+.card-typo,.contact p {
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+}
+/* Making cards out of the sections */
+
+.card{
+    border-radius: 10px;
+}
+.container-for-introduction{
+    background-color: #E2E7DD;
+    width: 639px;
+    height: 193px;
+    
+
+}
+.container-for-photo{
+    width: 305px;
+    height: 418px;
+    background-color: #E6D3A3;
+}
+
+.container-for-cleints {
+    width: 305px;
+    height: 193px;
+    background-color: #6B5CE5;
+}
+
+.container-for-projects{
+    width: 305px;
+    height: 193px;
+    background-color: #EB98B7;
+
+}
+
+.container-for-contact{
+    width: 974px;
+    height: 286px;
+    background-color: #D8DBE3;
+
+}
+
+/* layout setting of the cards */
+
+.main-container {
+   display: grid; 
+
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr ;
+   
+   gap: 10px 10px;
+   
+   
+}
+  
+#item-0 {
+
+    
+   grid-row-start: 1;
+   grid-column-start: 1;
+
+   grid-row-end: 2;
+   grid-column-end: 3;
+   
+}
+#item-1 {
+
+    
+   grid-row-start: 1;
+   grid-column-start: 3;
+
+   grid-row-end: 3;
+   grid-column-end: 4;
+   
+}
+#item-2 {
+
+   
+   grid-row-start: 2;
+   grid-column-start: 1;
+
+   grid-row-end: 3;
+   grid-column-end: 2;
+   
+}
+#item-3 {
+
+    
+   grid-row-start: 2;
+   grid-column-start: 2;
+
+   grid-row-end: 3;
+   grid-column-end: 3;
+   
+}
+#item-4 {
+
+   
+   grid-row-start: 3;
+   grid-column-start: 1;
+
+   grid-row-end: 4;
+   grid-column-end: 4;
+   
+}
+
